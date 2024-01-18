@@ -1,8 +1,7 @@
-
 <div align="center">
     <br />
     <a href="https://github.com/ChoBae/reactwindui">
-        <!-- <img src="https://github.com/dcastil/tailwind-merge/raw/v2.2.0/assets/logo.svg" alt="tailwind-merge" height="150px" /> -->
+        <img src="https://github.com/ChoBae/reactwindui/assets/101175828/6384a450-6f24-4794-bd6e-e646720854df" alt="reactwindui" height="200px" />
     </a>
 </div>
 
@@ -16,11 +15,8 @@ npm install reactwindui
 yarn add reactwindui
 ```
 
-
-
-
 ```ts
-import { Component } from 'reactwindui'
+import { Component } from "reactwindui";
 
 // twMerge('px-2 py-1 bg-red hover:bg-dark-red', 'p-3 bg-[#B91C1C]')
 // → 'hover:bg-dark-red p-3 bg-[#B91C1C]'
