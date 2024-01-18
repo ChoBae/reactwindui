@@ -1,46 +1,46 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+    <br />
+    <a href="https://github.com/ChoBae/reactwindui">
+        <!-- <img src="https://github.com/dcastil/tailwind-merge/raw/v2.2.0/assets/logo.svg" alt="tailwind-merge" height="150px" /> -->
+    </a>
+</div>
 
-## Available Scripts
+# reactwindui
 
-In the project directory, you can run:
+is a powerful and flexible UI component library designed for projects using React and Tailwind CSS. This library facilitates the efficient combination of Tailwind classes through the use of tailwind-merge.
 
-### `yarn start`
+```bash
+npm install reactwindui
+# or
+yarn add reactwindui
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```ts
+import { Component } from 'reactwindui'
 
-### `yarn build`
+// twMerge('px-2 py-1 bg-red hover:bg-dark-red', 'p-3 bg-[#B91C1C]')
+// → 'hover:bg-dark-red p-3 bg-[#B91C1C]'
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!-- -   Supports Tailwind v3.0 up to v3.4 (if you use Tailwind v2, use [tailwind-merge v0.9.0](https://github.com/dcastil/tailwind-merge/tree/v0.9.0)) -->
+<!-- -   Works in all modern browsers and maintained Node versions -->
+<!-- -   Fully typed -->
+<!-- -   [📦💻 "Explore the package size and efficiency on reactwindui!"](https://bundlephobia.com/package/tailwind-merge) -->
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Get started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<!-- -   [What is it for](https://github.com/dcastil/tailwind-merge/tree/v2.2.0/docs/what-is-it-for.md)
+-   [When and how to use it](https://github.com/dcastil/tailwind-merge/tree/v2.2.0/docs/when-and-how-to-use-it.md)
+-   [Features](https://github.com/dcastil/tailwind-merge/tree/v2.2.0/docs/features.md)
+-   [Limitations](https://github.com/dcastil/tailwind-merge/tree/v2.2.0/docs/limitations.md)
+-   [Configuration](https://github.com/dcastil/tailwind-merge/tree/v2.2.0/docs/configuration.md)
+-   [Recipes](https://github.com/dcastil/tailwind-merge/tree/v2.2.0/docs/recipes.md)
+-   [API reference](https://github.com/dcastil/tailwind-merge/tree/v2.2.0/docs/api-reference.md)
+-   [Writing plugins](https://github.com/dcastil/tailwind-merge/tree/v2.2.0/docs/writing-plugins.md)
+-   [Versioning](https://github.com/dcastil/tailwind-merge/tree/v2.2.0/docs/versioning.md)
+-   [Contributing](https://github.com/dcastil/tailwind-merge/tree/v2.2.0/docs/contributing.md)
+-   [Similar packages](https://github.com/dcastil/tailwind-merge/tree/v2.2.0/docs/similar-packages.md) -->
