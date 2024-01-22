@@ -1,7 +1,7 @@
 <div align="center">
     <br />
     <a href="https://github.com/ChoBae/reactwindui">
-        <img src="https://github.com/ChoBae/reactwindui/assets/101175828/6384a450-6f24-4794-bd6e-e646720854df" alt="reactwindui" height="200px" />
+        <img src="https://github.com/ChoBae/reactwindui/blob/master/assets/logo.png" alt="reactwindui" height="200px" />
     </a>
 </div>
 
