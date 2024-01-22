@@ -1,6 +1,11 @@
 {
   "name": "reactwindui",
   "version": "0.1.4",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChoBae/reactwindui"
+  },
   "type": "module",
   "module": "dist/index.ts",
   "main": "dist/index.ts",
